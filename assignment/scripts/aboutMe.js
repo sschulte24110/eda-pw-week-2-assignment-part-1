@@ -61,7 +61,7 @@ console.log('Pets allowed =', allowedPets);
 //      Console log the value of `result`
 let result = '';
 
-if (adventurous === true) {
+if (adventurous) {
   result = 'Adventures are great!';
 } else {
   result = 'How about we stay home?';
@@ -147,9 +147,13 @@ console.log(luckyResult);
 
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// condition ? truthy goes here : falsey goes here;
+let result2 = adventurous ? 'Adventures are great!' : 'How about we stay home?';
 
 adventurous == true ? result2 = 'Adventures are great!' : result2 = 'How about we stay home?';
 console.log(result2);
+
+
 
 
 
