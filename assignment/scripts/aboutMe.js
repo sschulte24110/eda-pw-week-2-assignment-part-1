@@ -52,14 +52,14 @@ pets = pets + 2;
 console.log('My pets =', pets);
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
-let allowedPets = 2;
+const allowedPets = 2;
 console.log('Pets allowed =', allowedPets);
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = adventurous;
+let result = '';
 
 if (adventurous === true) {
   result = 'Adventures are great!';
